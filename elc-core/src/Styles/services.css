@@ -1,0 +1,11 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+}
