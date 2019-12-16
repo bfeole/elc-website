@@ -1,5 +1,6 @@
 import React from 'react';
 import Services from './Services';
+import About from './About';
 
 // Styling
 import '../Styles/home.css';
@@ -25,8 +26,8 @@ const Home = () => {
           <img src={''} alt={<h1>Image Here</h1>} />
         </div>
       </div>
-
       <Services />
+      <About />
     </div>
   );
 };
