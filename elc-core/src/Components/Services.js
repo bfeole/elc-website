@@ -5,10 +5,8 @@ import '../Styles/services.css';
 const Services = () => {
   return (
     <div className='services-wrapper'>
-      <div>
-        <h2>Services</h2>
-        <p>Lorem Services Ipsum</p>
-      </div>
+      <h2>Services</h2>
+      <p>Lorem Services Ipsum</p>
       <div className='card-wrapper'>
         <div className='column services-column-one'>
           <div className='card-one'>

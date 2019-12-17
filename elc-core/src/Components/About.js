@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className='about-wrapper'>
-      <h3>About Us</h3>
+      <h2>About Us</h2>
       <div className='about-image'>
         <img alt='image here'></img>
       </div>
