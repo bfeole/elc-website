@@ -3,6 +3,7 @@ import Services from './Services';
 import About from './About';
 
 // Styling
+import { Button } from 'reactstrap';
 import '../Styles/home.css';
 import '../Styles/banner.css';
 
@@ -19,12 +20,14 @@ const Home = () => {
               <li>1 on 1 Coaching</li>
             </ul>
           </div>
-          <button className='contact-button'>Contact Us</button>
-          <button className='learn-button'>Learn More</button>
+          <Button color='primary'>Contact Us</Button>
+          <Button color='secondary'>Learn More</Button>
+          {/* <button className='contact-button'>Contact Us</button>
+          <button className='learn-button'>Learn More</button> */}
         </div>
-        <div className='banner-img'>
+        {/* <div className='banner-img'>
           <img src={''} alt={<h1>Image Here</h1>} />
-        </div>
+        </div> */}
       </div>
       <Services />
       <About />
