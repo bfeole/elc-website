@@ -9,3 +9,8 @@
   border: 1px solid black;
   margin: 5px;
 }
+
+.services-wrapper {
+  display: flex;
+  justify-content: space-around;
+}

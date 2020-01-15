@@ -16,7 +16,7 @@ function App() {
     <div className='App'>
       <Router history={history}>
         <NavBar />
-        <Route exat path='/' component={Home} />
+        <Route exact path='/' component={Home} />
       </Router>
     </div>
   );

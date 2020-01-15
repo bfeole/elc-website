@@ -1,11 +1,87 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Card, Button, CardTitle, CardText, Row, Col, ListGroup, ListGroupItem, Fade, Collapse } from 'reactstrap';
 
-import '../Styles/services.css';
 
-const Services = () => {
+// import '../Styles/services.css';
+
+const Services = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div className='services-wrapper'>
-      <h2>Services</h2>
+      <div className="container">
+      <Row>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Go somewhere</Button>
+          <Collapse isOpen={isOpen}>
+          <ListGroup>
+            <ListGroupItem>Cras justo odio</ListGroupItem>
+            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+            <ListGroupItem>Morbi leo risus</ListGroupItem>
+            <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
+            <ListGroupItem>Vestibulum at eros</ListGroupItem>
+          </ListGroup>
+          </Collapse>
+        </Card>
+      </Col>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+    </Row>
+    <Row>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+    </Row>
+    <Row>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+      <Col sm="6">
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+    </Row>
+    <Row>
+      <Col sm="6" md={{ size: 6, offset: 3 }}>
+        <Card className="mt-4" body>
+          <CardTitle>Special Title Treatment</CardTitle>
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Go somewhere</Button>
+        </Card>
+      </Col>
+      </Row>
+
+    </div>
+
+      {/* <h2>Services</h2>
       <p>Lorem Services Ipsum</p>
       <div className='card-wrapper'>
         <div className='column services-column-one'>
@@ -44,7 +120,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Insert expandable cards to be clicked on and blurb about services rendered */}
     </div>
   );
