@@ -11,7 +11,7 @@ const Organization = (props) => {
   return (
     <Card className="mt-4" body>
     <CardTitle>Organization & Time Management</CardTitle>
-    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+    <CardText>Creating a routine develops healthy habits while allowing you to find success in gaining employment and independent living. </CardText>
     <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
     <Collapse isOpen={isOpen}>
     <ListGroup>

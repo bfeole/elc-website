@@ -10,8 +10,8 @@ const Health = (props) => {
 
   return (
     <Card className="mt-4" body>
-    <CardTitle>Health & Nutrition</CardTitle>
-    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+    <CardTitle>Diet & Exercise</CardTitle>
+    <CardText>Setting up dietary and exercise patterns can be challenging. We provide guidance and support as these new healthy habits are being established.</CardText>
     <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
     <Collapse isOpen={isOpen}>
     <ListGroup>

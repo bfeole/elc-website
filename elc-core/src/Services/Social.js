@@ -11,7 +11,7 @@ const Social = (props) => {
   return (
     <Card className="mt-4" body>
     <CardTitle>Social & Interpersonal Skills</CardTitle>
-    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+    <CardText>Establishing positive social behavior and a sense of awareness helps build self worth through guiding healthy relationships with peers. </CardText>
     <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
     <Collapse isOpen={isOpen}>
     <ListGroup>

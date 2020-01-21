@@ -11,7 +11,7 @@ const Styling = (props) => {
   return (
     <Card className="mt-4" body>
     <CardTitle>Personal Styling & Grooming</CardTitle>
-    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+    <CardText>Appearance and presentation is unique to each individual. We provide basic personal styling for daily life, employment and specific events. </CardText>
     <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
     <Collapse isOpen={isOpen}>
     <ListGroup>
