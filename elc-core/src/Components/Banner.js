@@ -13,7 +13,7 @@ const Banner = (props) => {
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p className="lead">
         <Button color='primary' style={{ margin: '1rem' }}>Contact Us</Button>
-        <Button color='secondary'>Learn More</Button>
+        <Button color='secondary' style={{ margin: '1rem' }}>Learn More</Button>
         </p>
       </Jumbotron>
     </div>
