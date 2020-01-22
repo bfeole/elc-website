@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {  Row, Col, } from 'reactstrap';
+import {  Row, Col } from 'reactstrap';
+
 import Social from '../Services/Social.js'
 import Transportation from '../Services/Transportation.js';
 import Organization from '../Services/Organization.js';
