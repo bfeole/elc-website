@@ -9,10 +9,10 @@ const Safety = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Card className="mt-4" body>
-    <CardTitle>Safety Training</CardTitle>
+    <Card className="mt-4" style={{backgroundColor: '#f1f1f1', minHeight: '150px'}} body>
+    <CardTitle style={{fontSize: '18px', fontWeight: 'bold'}}>Safety Training</CardTitle>
     <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-    <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
+    <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See More</Button>
     <Collapse isOpen={isOpen}>
     <ListGroup>
       <ListGroupItem>Lorem ipsum bipsum gibberish stuff</ListGroupItem>

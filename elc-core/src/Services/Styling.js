@@ -9,17 +9,17 @@ const Styling = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Card className="mt-4" body>
-    <CardTitle>Personal Styling & Grooming</CardTitle>
-    <CardText>Appearance and presentation is unique to each individual. We provide basic personal styling for daily life, employment and specific events. </CardText>
-    <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
+    <Card className="mt-4" style={{backgroundColor: '#f1f1f1', minHeight: '150px'}} body>
+    <CardTitle style={{fontSize: '18px', fontWeight: 'bold'}}>Personal Styling & Grooming</CardTitle>
+    <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See More</Button>
     <Collapse isOpen={isOpen}>
-    <ListGroup>
+    <CardText>Appearance and presentation is unique to each individual. We provide basic personal styling for daily life, employment and specific events. </CardText>
+    {/* <ListGroup>
       <ListGroupItem>Daily wear</ListGroupItem>
       <ListGroupItem>Dressing for events</ListGroupItem>
       <ListGroupItem>Retail and Online shopping assistance </ListGroupItem>
       <ListGroupItem>Learning makeup/hair styling </ListGroupItem>
-    </ListGroup>
+    </ListGroup> */}
     </Collapse>
   </Card>
 

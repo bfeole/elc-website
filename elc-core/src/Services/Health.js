@@ -9,16 +9,16 @@ const Health = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Card className="mt-4" body>
-    <CardTitle>Diet & Exercise</CardTitle>
-    <CardText>Setting up dietary and exercise patterns can be challenging. We provide guidance and support as these new healthy habits are being established.</CardText>
-    <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>
+    <Card className="mt-4" style={{backgroundColor: '#f1f1f1', minHeight: '150px'}} body>
+    <CardTitle style={{fontSize: '18px', fontWeight: 'bold'}}>Diet & Exercise</CardTitle>
+    <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See More</Button>
     <Collapse isOpen={isOpen}>
-    <ListGroup>
+    <CardText>Setting up dietary and exercise patterns can be challenging. We provide guidance and support as these new healthy habits are being established.</CardText>
+    {/* <ListGroup>
       <ListGroupItem>Basic Nutrition and Diet Education</ListGroupItem>
       <ListGroupItem>Fitness and Active lifestyle choices</ListGroupItem>
       <ListGroupItem>Body awareness and movement </ListGroupItem>
-    </ListGroup>
+    </ListGroup> */}
     </Collapse>
   </Card>
 

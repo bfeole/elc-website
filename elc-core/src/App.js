@@ -9,6 +9,7 @@ import Services from './Components/Services';
 
 // Styling
 import './App.css';
+import Contact from './Components/Contact';
 
 const history = createBrowserHistory();
 
@@ -19,6 +20,7 @@ function App() {
         <NavBar />
         <Route exact path='/' component={Home} />
         <Route exact path='/services' component={Services} />
+        <Route exact path='/contact' component={Contact} />
       </Router>
     </div>
   );
