@@ -11,6 +11,9 @@ import Safety from '../Services/Safety.js';
 
 // import '../Styles/services.css';
 
+import claremedal from '../Assets/clare-medal-caro-2.png';
+import AboutCarousel from './AboutCarousel.js';
+
 const Services = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,6 +21,12 @@ const Services = (props) => {
 
   return (
     <div className='services-wrapper'>
+      <div className='services-intro'>
+        <AboutCarousel />
+        {/* <img src={claremedal} alt='Tell ben to fix the photo :)' /> */}
+        <h4>Services</h4>
+        <p>Service sLorem ipsum bipsum dipsum misha con bingo blappa ding dang walal bingo lipsum bingo dingud.s Things are as they have ever seemed.  </p>
+      </div>
       <div className="container">
       <Row>
       <Col sm="6">

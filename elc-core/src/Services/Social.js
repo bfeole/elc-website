@@ -9,7 +9,7 @@ const Social = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Card className="mt-4" body>
+    <Card className="mt-4" style={{backgroundColor: '#f1f1f1'}} body>
     <CardTitle>Social & Interpersonal Skills</CardTitle>
     <CardText>Establishing positive social behavior and a sense of awareness helps build self worth through guiding healthy relationships with peers. </CardText>
     <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>See Details</Button>

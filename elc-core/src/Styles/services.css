@@ -1,3 +1,5 @@
+/* Services Page Styling */
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
@@ -12,5 +14,52 @@
 
 .services-wrapper {
   display: flex;
+  margin-top: 50px;
+  flex-direction: column;
   justify-content: space-around;
+}
+
+
+
+/* Services Card Styling */
+
+.services-card-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 120px;
+  max-width: 90%;
+  /* border: solid pink 2px; */
+}
+
+.services-image { 
+  max-width: 80%;
+  max-height: 80%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 930px) {
+  .services-image { 
+    max-width: 80%;
+    max-height: 70%;
+    padding: 10px;
+    }
+
+      .services-card-wrapper{
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column-reverse;
+          /* max-width: 900px; */
+      }
+
+
+}
+
+.services-card-content { 
+  flex-direction: column;
+  max-width: 500px;
+  margin: 20px;
 }

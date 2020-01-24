@@ -3,20 +3,29 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    /* max-width: 900px; */
+    max-width: 90%;
+}
+
+.about-color-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fbf7d9;
+    padding: 50px 0 50px 0;
 }
 
 .about-image { 
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     padding: 10px;
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 930px) {
     .about-image { 
-        max-width: 100%;
-        max-height: 90%;
+        max-width: 80%;
+        max-height: 70%;
         padding: 10px;
         }
 
@@ -25,15 +34,14 @@
             align-items: center;
             justify-content: space-evenly;
             flex-direction: column;
-            /* max-width: 900px; */
         }
 
 
 }
 
 .about-content { 
-    display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    justify-items: center;
     max-width: 500px;
 }

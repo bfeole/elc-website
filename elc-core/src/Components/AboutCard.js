@@ -9,23 +9,22 @@ import '../Styles/about.css';
 
 const AboutCard = () => {
   return (
+    <div className='about-color-wrapper'>
     <div className='about-wrapper'>
       <div className='about-image-container'>
         <img src={aboutimg} alt='image here' className='about-image'></img>
       </div>
       <div className='about-content'>
-      <h2>About Us</h2>
-        <p className='about-copy'>
-          Praesent imperdiet leo eget tempus elementum. Pellentesque porta lorem
-          at ipsum consequat consequat. In hac habitasse platea dictumst. Duis
-          neque nunc, malesuada gravida dignissim quis, accumsan et velit. Donec
-          nec quam mauris. Aenean a dictum dolor. Aenean mollis finibus finibus.
-          Sed a odio auctor massa accumsan porta eget vitae massa. Proin
-          facilisis maximus diam tincidunt ullamcorper. Fusce sit amet nibh
-
-        </p>
-        <Button color='primary' style={{ margin: '1rem' }}>Contact Us</Button>
+        <div className='about-copy'>
+        <h2>Welcome to Exceptional Life Coaching!</h2>
+        We are here to support, encourage, motivate and care for one another so that we can each live
+        our own exceptional lives. As a certified Pediatric Developmental Therapist and a certified 
+        Special Needs Life Coach, this is my life’s work. As a sister of a young adult with special
+        needs and as a passionate advocate for this community with over ten years of experience, I am looking forward to continuing to serve the special needs community.
+        </div>
+        <Button color='primary' style={{ margin: '1rem'}}>Contact Us</Button>
       </div>
+    </div>
     </div>
   );
 };
