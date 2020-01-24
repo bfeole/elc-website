@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   width: 100%;
   border: 1px solid pink;
+  /* margin-top: 60px; */
   /* padding: 10px; */
 }
 
@@ -40,9 +41,9 @@
 
 .banner-img {
   border: 1px solid black;
-  max-height: 300px;
+  /* max-height: 300px; */
 }
 
 img {
-  background-image: inherit;
+  /* background-image: inherit; */
 }
