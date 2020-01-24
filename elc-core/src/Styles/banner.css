@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  border: 1px solid pink;
-  /* margin-top: 60px; */
+  /* border: 1px solid pink; */
+  margin-top: 60px;
   /* padding: 10px; */
 }
 

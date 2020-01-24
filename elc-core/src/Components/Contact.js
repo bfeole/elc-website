@@ -6,17 +6,18 @@ import '../Styles/contact.css'
 
 const Contact = (props) => {
   return (
+    <div className='contact-color-wrapper'>
     <div className='contact-wrapper'>
       <div className='contact-header'>
-        <h4>Get in touch!</h4>
+        <h4 className='display-4'>Get in touch!</h4>
         <p>Want to set up a quick chat or have a specific question? 
         Fill the form out below to send us an email. 
         We'll get back to you as soon as we can.</p>
       </div>
     <Form action="https://formspree.io/you@email.com">
       <FormGroup>
-        <Label for="exampleEmail">Email</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email here" />
+        <Label for="exampleEmail">Your Email Address</Label>
+        <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />
       </FormGroup>
       {/* <FormGroup>
         <Label for="exampleSelect">Select</Label>
@@ -29,11 +30,12 @@ const Contact = (props) => {
         </Input>
       </FormGroup> */}
       <FormGroup>
-        <Label for="exampleText">Text Area</Label>
-        <Input type="textarea" name="text" id="exampleText" placeholder="Enter your message here (you'll get a copy!)" />
+        <Label for="exampleText">Your Message Here</Label>
+        <Input type="textarea" name="text" id="exampleText" placeholder="Enter Message To Send Here" />
       </FormGroup>
       <Button>Submit</Button>
     </Form>
+      </div>
       </div>
   );
 }
