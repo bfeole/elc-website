@@ -3,6 +3,7 @@ import AboutCard from './AboutCard';
 import Banner from './Banner';
 import ServicesCard from './ServicesCard';
 import Contact from './Contact';
+import Footer from './Footer';
 
 // Styling
 import '../Styles/home.css';
@@ -15,6 +16,7 @@ const Home = () => {
       <AboutCard />
       <ServicesCard />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Health from '../Services/Health.js';
 import Household from '../Services/Household.js';
 import Safety from '../Services/Safety.js';
 import Media from '../Services/Media.js';
+import Footer from './Footer.js';
 
 // import '../Styles/services.css';
 
@@ -70,9 +71,8 @@ const Services = (props) => {
       </Col>
       </Row>
       </div>
+      <Footer />
     </div>
-
-  
   );
 };
 

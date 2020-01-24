@@ -8,7 +8,7 @@ const Banner = (props) => {
     <div>
       <Jumbotron style={{ backgroundImage: `url(${elclogo})`, backgroundSize: 'cover', backgroundPosition: 'center',}}>
         <h1 className="display-4 font-weight-normal">Exceptional Life Coaching</h1>
-        <p className="lead font-weight-normal">We help ensure exceptional teens and young adults have the opportunity to gain the confidence and skills needed to live independently.</p>
+        <p className="lead font-weight-normal">We help ensure exceptional teens and young adults have the opportunity to gain the confidence and skills needed to live as independently as possible.</p>
         <hr className="my-2" />
         {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
         <p className="lead">
