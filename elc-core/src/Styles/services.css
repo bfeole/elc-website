@@ -15,6 +15,7 @@
 .services-wrapper {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 25px;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -28,7 +29,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding-top: 120px;
+  padding-top: 90px;
+  padding-bottom: 45px;
   max-width: 90%;
   /* border: solid pink 2px; */
 }

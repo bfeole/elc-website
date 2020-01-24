@@ -33,7 +33,7 @@ const NavBar = (props) => {
               <NavLink href="/services">Services</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact Us</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -53,7 +53,7 @@ const NavBar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown> */}
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
     </div>
