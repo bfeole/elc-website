@@ -1,5 +1,5 @@
 [build]
-  base = "elc-website/"
+  base = "elc-core/"
   publish = "elc-core/build/"
 
   # A basic redirect rule
