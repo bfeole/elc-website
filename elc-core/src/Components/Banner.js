@@ -12,8 +12,8 @@ const Banner = (props) => {
         <hr className="my-2" />
         {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
         <p className="lead" style={{marginBottom: '0px'}}>
-        <Button color='primary' style={{ margin: '1rem' }}>Contact Us</Button>
-        <Button color='secondary' style={{ margin: '1rem' }}>Learn More</Button>
+        <Button color='primary' style={{ margin: '1rem' }} href="/contact">Contact Us</Button>
+        <Button color='secondary' style={{ margin: '1rem' }} href="/services">Learn More</Button>
         </p>
       </Jumbotron>
     </div>

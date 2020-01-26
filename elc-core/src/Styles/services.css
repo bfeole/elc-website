@@ -1,4 +1,4 @@
-/* Services Page Styling */
+/* Services Page Styling
 
 .card-wrapper {
   display: flex;
@@ -10,12 +10,12 @@
   flex-direction: column;
   border: 1px solid black;
   margin: 5px;
-}
+} */
 
 .services-wrapper {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 60px;
+  /* margin-bottom: 25px; */
   flex-direction: column;
   justify-content: space-around;
 }
@@ -29,8 +29,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding-top: 90px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   max-width: 90%;
   /* border: solid pink 2px; */
 }
@@ -41,22 +41,26 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: #c6cee3;
-  padding: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
+}
+
+.services-intro {
+  margin: 0 15px 0 15px;
 }
 
 
 
 .services-image { 
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 90%;
+  max-height: 90%;
   padding: 10px;
   border-radius: 15px;
 }
 
 @media only screen and (max-width: 930px) {
   .services-image { 
-    max-width: 80%;
-    max-height: 70%;
+    max-width: 90%;
+    max-height: 90%;
     padding: 10px;
     }
 

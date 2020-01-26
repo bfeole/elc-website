@@ -13,7 +13,7 @@ const Contact = (props) => {
         <p>Have some questions or want to get started? 
         Type a message below to send us an email. We'll get back to you as soon as possible. </p>
       </div>
-    <Form action="https://formspree.io/sara.elclifeskills@gmail.com">
+    <Form action="https://formspree.io/sara.elclifeskills@gmail.com" method="POST">
       <FormGroup>
         <Label for="exampleEmail">Your Email Address</Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />
