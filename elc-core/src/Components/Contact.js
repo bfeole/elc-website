@@ -18,16 +18,6 @@ const Contact = (props) => {
         <Label for="exampleEmail">Your Email Address</Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />
       </FormGroup>
-      {/* <FormGroup>
-        <Label for="exampleSelect">Select</Label>
-        <Input type="select" name="select" id="exampleSelect">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        </Input>
-      </FormGroup> */}
       <FormGroup>
         <Label for="exampleText">Your Message Here</Label>
         <Input type="textarea" name="text" id="exampleText" placeholder="Enter Message To Send Here" />
