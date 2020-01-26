@@ -24,7 +24,7 @@ const Services = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  return (
+  return ( 
     <div className='services-wrapper'>
       <div className='services-intro'>
         {/* <AboutCarousel /> */}

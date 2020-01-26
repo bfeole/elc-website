@@ -10,11 +10,10 @@ const Contact = (props) => {
     <div className='contact-wrapper'>
       <div className='contact-header'>
         <h4 className='display-4'>Get in touch!</h4>
-        <p>Want to set up a quick chat or have a specific question? 
-        Fill the form out below to send us an email. 
-        We'll get back to you as soon as we can.</p>
+        <p>Have some questions or want to get started? 
+        Type a message below to send us an email. We'll get back to you as soon as possible. </p>
       </div>
-    <Form action="https://formspree.io/you@email.com">
+    <Form action="https://formspree.io/sara.elclifeskills@gmail.com">
       <FormGroup>
         <Label for="exampleEmail">Your Email Address</Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />

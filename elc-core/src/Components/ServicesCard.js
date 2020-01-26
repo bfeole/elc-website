@@ -8,6 +8,7 @@ import '../Styles/services.css';
 
 const ServicesCard = () => {
   return (
+    <div className='services-color-wrapper'>
     <div className='services-card-wrapper'>
       <div className='services-card-content'>
       <h2>Services</h2>
@@ -22,6 +23,7 @@ const ServicesCard = () => {
       <div className='services-card-container'>
         <img src={pizza} alt='image here' className='services-image'></img>
       </div>
+    </div>
     </div>
   );
 };
