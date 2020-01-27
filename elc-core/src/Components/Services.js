@@ -7,7 +7,6 @@ import Organization from '../Services/Organization.js';
 import Styling from '../Services/Styling.js';
 import Health from '../Services/Health.js';
 import Media from '../Services/Media.js';
-import Footer from './Footer.js';
 
 // import '../Styles/services.css';
 
@@ -65,7 +64,6 @@ const Services = (pros) => {
       </Col>
       </Row>
       </div>
-      <Footer />
     </div>
   );
 };
