@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import '../Styles/contact.css'
 
@@ -13,24 +13,18 @@ const Contact = (props) => {
         <p>Have some questions or want to get started? 
         Type a message below to send us an email. We'll get back to you as soon as possible. </p>
       </div>
-    <Form action="https://formspree.io/sara.elclifeskills@gmail.com">
+    <Form action="https://formspree.io/sara.elclifeskills@gmail.com" method="POST">
       <FormGroup>
-        <Label for="exampleEmail">Your Email Address</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />
+        <Label for="yourName">Your Name</Label>
+        <Input type="text" name="name" id="yourName" placeholder="Enter Your Name Here"></Input>
       </FormGroup>
-      {/* <FormGroup>
-        <Label for="exampleSelect">Select</Label>
-        <Input type="select" name="select" id="exampleSelect">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        </Input>
-      </FormGroup> */}
       <FormGroup>
-        <Label for="exampleText">Your Message Here</Label>
-        <Input type="textarea" name="text" id="exampleText" placeholder="Enter Message To Send Here" />
+        <Label for="yourEmail">Your Email Address</Label>
+        <Input type="email" name="email" id="yourEmail" placeholder="Enter Email Address Here" />
+      </FormGroup>
+      <FormGroup>
+        <Label for="yourText">Your Message Here</Label>
+        <Input type="textarea" name="text" id="yourText" placeholder="Enter Your Message Here" />
       </FormGroup>
       <Button>Submit</Button>
     </Form>

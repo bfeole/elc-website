@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Button, CardTitle, CardText, ListGroup, ListGroupItem, Collapse } from 'reactstrap';
+import { Card, Button, CardTitle, CardText, Collapse } from 'reactstrap';
 
 
 
@@ -8,12 +8,21 @@ const Transportation = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  let button;
+
+  if(isOpen) {
+    button = <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See Less</Button>
+    
+  } else {
+    button = <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See More</Button>
+  }
+
   return (
     <Card className="mt-4" style={{backgroundColor: '#f1f1f1', minHeight: '150px'}} body>
-    <CardTitle style={{fontSize: '18px', fontWeight: 'bold'}}>Transportation Skills</CardTitle>
-    <Button color="primary" onClick={toggle} style={{ marginTop: '1rem', maxWidth: '205px', alignSelf: 'center', padding: '5px 60px 5px 60px' }}>See More</Button>
+    <CardTitle style={{fontSize: '18px', fontWeight: '500'}}>Transportation Skills</CardTitle>
+    {button}
     <Collapse isOpen={isOpen}>
-    <CardText>Learning to navigate the complicated ways of acquiring transportation foster a sense of independence while opening doors to new opportunities.</CardText>
+    <CardText style={{paddingTop: '10px'}}>Learning to navigate the complicated ways of acquiring transportation foster a sense of independence while opening doors to new opportunities.</CardText>
     {/* <ListGroup>
       <ListGroupItem>Learning UBER and LYFT</ListGroupItem>
       <ListGroupItem>When and how to safely ask for directions</ListGroupItem>
