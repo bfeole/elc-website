@@ -21,7 +21,7 @@ const AboutCard = () => {
         Special Needs Life Coach, this is my life’s work. Having a sister with special
         needs and as a passionate advocate for this community with over ten years of experience, I am looking forward to continuing to serve the special needs community.
         </div>
-        <Button color='primary' style={{ margin: '1rem'}}>Contact Us</Button>
+        <Button color='primary' href="/contact" style={{ margin: '1rem'}}>Contact Us</Button>
       </div>
     </div>
     </div>
