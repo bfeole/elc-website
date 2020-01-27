@@ -15,12 +15,16 @@ const Contact = (props) => {
       </div>
     <Form action="https://formspree.io/sara.elclifeskills@gmail.com" method="POST">
       <FormGroup>
-        <Label for="exampleEmail">Your Email Address</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email Address Here" />
+        <Label for="yourName">Your Name</Label>
+        <Input type="text" name="name" id="yourName" placeholder="Enter Your Name Here"></Input>
       </FormGroup>
       <FormGroup>
-        <Label for="exampleText">Your Message Here</Label>
-        <Input type="textarea" name="text" id="exampleText" placeholder="Enter Message To Send Here" />
+        <Label for="yourEmail">Your Email Address</Label>
+        <Input type="email" name="email" id="yourEmail" placeholder="Enter Email Address Here" />
+      </FormGroup>
+      <FormGroup>
+        <Label for="yourText">Your Message Here</Label>
+        <Input type="textarea" name="text" id="yourText" placeholder="Enter Your Message Here" />
       </FormGroup>
       <Button>Submit</Button>
     </Form>
