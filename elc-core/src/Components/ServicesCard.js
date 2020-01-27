@@ -19,7 +19,7 @@ const ServicesCard = () => {
         <Button color='primary' href="/services" style={{ margin: '1rem' }}>Learn More</Button>
       </div>
       <div className='services-card-container'>
-        <img src={pizza} alt='image here' className='services-image'></img>
+        <img src={pizza} alt='brandon pizza boxes' className='services-image'></img>
       </div>
     </div>
     </div>

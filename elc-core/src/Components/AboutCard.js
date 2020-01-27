@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import {Button} from 'reactstrap';
-import AboutCarousel from './AboutCarousel.js';
+// import AboutCarousel from './AboutCarousel.js';
 // import scimg from '../Assets/sc-web.png';
 import aboutimg from '../Assets/sc-about-web.png';
 import '../Styles/about.css';
@@ -12,7 +12,7 @@ const AboutCard = () => {
     <div className='about-color-wrapper'>
     <div className='about-wrapper'>
       <div className='about-image-container'>
-        <img src={aboutimg} alt='image here' className='about-image'></img>
+        <img src={aboutimg} alt='sara and clare' className='about-image'></img>
       </div>
       <div className='about-content'>
         <div className='about-copy'>

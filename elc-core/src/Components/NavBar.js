@@ -11,7 +11,7 @@ import {
 
 // Styling
 // import '../Styles/navbar.css';
-import icon from '../Assets/apple-touch-icon.png';
+// import icon from '../Assets/apple-touch-icon.png';
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {  Row, Col, } from 'reactstrap';
 
 import Social from '../Services/Social.js'
@@ -6,30 +6,25 @@ import Transportation from '../Services/Transportation.js';
 import Organization from '../Services/Organization.js';
 import Styling from '../Services/Styling.js';
 import Health from '../Services/Health.js';
-import Safety from '../Services/Safety.js';
 import Media from '../Services/Media.js';
 import Footer from './Footer.js';
 
 // import '../Styles/services.css';
 
-import claremedal from '../Assets/clare-medal-caro-2.png';
-import AboutCarousel from './AboutCarousel.js';
+// import claremedal from '../Assets/clare-medal-caro-2.png';
+// import AboutCarousel from './AboutCarousel.js';
 import Hygiene from '../Services/Hygiene.js';
 import Interview from '../Services/Interview.js';
 import Romantic from '../Services/Romantic.js';
 
-const Services = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
+const Services = (pros) => {
 
   return ( 
     <div className='services-wrapper'>
       <div className='services-intro'>
         {/* <AboutCarousel /> */}
-        {/* <img src={claremedal} alt='Tell ben to fix the photo :)' /> */}
         <h4 className='display-4'>Services</h4>
-        <p>Service sLorem ipsum bipsum dipsum misha con bingo blappa ding dang walal bingo lipsum bingo dingud.s Things are as they have ever seemed.  </p>
+        <p>Everyone has their own unique set of goals. Please inquire about the services listed below if you have any questions. </p>
       </div>
       <div className="container">
       <Row>
