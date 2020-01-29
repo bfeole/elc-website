@@ -2,10 +2,11 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import '../Styles/contact.css';
+import Footer from './Footer';
 
 const Contact = props => {
   return (
-    <div className='contact-page-color-wrapper'>
+    <div className='contact-color-wrapper'>
       <div className='contact-wrapper'>
         <div className='contact-header'>
           <h2>We'd love to hear from you!</h2>

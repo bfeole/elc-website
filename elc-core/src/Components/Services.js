@@ -7,21 +7,20 @@ import Organization from '../Services/Organization.js';
 import Styling from '../Services/Styling.js';
 import Health from '../Services/Health.js';
 import Media from '../Services/Media.js';
-
-// import '../Styles/services.css';
-
-// import claremedal from '../Assets/clare-medal-caro-2.png';
-// import AboutCarousel from './AboutCarousel.js';
 import Hygiene from '../Services/Hygiene.js';
 import Interview from '../Services/Interview.js';
 import Romantic from '../Services/Romantic.js';
 import Footer from './Footer.js';
 
+import '../Styles/services.css';
+
+import smile from '../Assets/c-services.png';
+
 const Services = pros => {
   return (
     <div className='services-wrapper'>
       <div className='services-intro'>
-        {/* <AboutCarousel /> */}
+        <img src={smile} alt='smile' className='services-page-image'></img>
         <h4 className='display-4'>Services</h4>
         <p>
           Everyone has their own unique set of goals. Please inquire about the

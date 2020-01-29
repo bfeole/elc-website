@@ -51,13 +51,21 @@
   max-height: 90%;
   padding: 10px;
   border-radius: 15px;
+  margin-right: 75px;
+}
+
+.services-page-image {
+  max-width: 80%;
+  max-height: 80%;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .services-card-content {
   flex-direction: column;
   max-width: 500px;
   margin: 20px;
-  margin-right: 140px;
+  margin-right: 125px;
 }
 
 @media only screen and (max-width: 930px) {
@@ -65,6 +73,7 @@
     max-width: 90%;
     max-height: 90%;
     padding: 10px;
+    margin: 0;
   }
 
   .services-card-wrapper {

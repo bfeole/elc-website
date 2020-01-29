@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button } from 'reactstrap';
 
-import pizza from '../Assets/clare-medal-caro-2.png';
+import medal from '../Assets/clare-medal-caro-2.png';
 import '../Styles/about.css';
 import '../Styles/services.css';
 
@@ -23,8 +23,8 @@ const ServicesCard = () => {
         </div>
         <div className='services-card-container'>
           <img
-            src={pizza}
-            alt='brandon pizza boxes'
+            src={medal}
+            alt='special olympics medal'
             className='services-image'></img>
         </div>
       </div>

@@ -1,17 +1,20 @@
 import React from 'react';
 
 import testimg from '../Assets/pizza-caro-3.png';
-import '../Styles/about.css';
+import '../Styles/testimonial.css';
 
 const TestimonialCard = () => {
   return (
-    <div className='about-color-wrapper'>
-      <div className='about-wrapper'>
-        <div className='about-image-container'>
-          <img src={testimg} alt='sara and clare' className='about-image'></img>
+    <div className='testimonial-color-wrapper'>
+      <div className='testimonial-wrapper'>
+        <div className='testimonial-image-container'>
+          <img
+            src={testimg}
+            alt='brandon pizza'
+            className='testimonial-image'></img>
         </div>
-        <div className='about-content'>
-          <div className='about-copy'>
+        <div className='testimonial-content'>
+          <div className='testimonial-copy'>
             {/* <h4 className='display-4 quote-left'>"</h4> */}
             <h2>A Happy Client</h2>
             <p>
