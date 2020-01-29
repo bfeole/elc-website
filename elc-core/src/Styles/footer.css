@@ -1,8 +1,12 @@
 .footer-wrapper {
-    max-height: 150px;
-    width: 100%;
-    padding-top: 25px;
-    margin-top: 15px;
-    background-color: #F8F9FA;
-    /* border: 2px solid black; */
+  max-height: 150px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 15px;
+  background-color: #f8f9fa;
+  /* border: 2px solid black; */
 }
