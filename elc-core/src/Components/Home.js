@@ -2,11 +2,13 @@ import React from 'react';
 import AboutCard from './AboutCard';
 import Banner from './Banner';
 import ServicesCard from './ServicesCard';
-import Contact from './Contact';
+import ContactCard from './ContactCard';
+import Footer from './Footer';
 
 // Styling
 import '../Styles/home.css';
 import '../Styles/banner.css';
+import TestimonialCard from './TestimonialCard';
 
 const Home = () => {
   return (
@@ -14,7 +16,9 @@ const Home = () => {
       <Banner />
       <AboutCard />
       <ServicesCard />
-      <Contact />
+      <TestimonialCard />
+      <ContactCard />
+      <Footer />
     </div>
   );
 };

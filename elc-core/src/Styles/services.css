@@ -20,17 +20,15 @@
   justify-content: space-around;
 }
 
-
-
 /* Services Card Styling */
 
-.services-card-wrapper{
+.services-card-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
   max-width: 90%;
   /* border: solid pink 2px; */
 }
@@ -48,35 +46,47 @@
   margin: 0 15px 0 15px;
 }
 
-
-
-.services-image { 
+.services-image {
   max-width: 90%;
   max-height: 90%;
   padding: 10px;
   border-radius: 15px;
+  margin-right: 75px;
 }
 
-@media only screen and (max-width: 930px) {
-  .services-image { 
-    max-width: 90%;
-    max-height: 90%;
-    padding: 10px;
-    }
-
-      .services-card-wrapper{
-          display: flex;
-          align-items: center;
-          justify-content: space-evenly;
-          flex-direction: column-reverse;
-          /* max-width: 900px; */
-      }
-
-
+.services-page-image {
+  max-width: 80%;
+  max-height: 80%;
+  padding: 10px;
+  border-radius: 15px;
 }
 
-.services-card-content { 
+.services-card-content {
   flex-direction: column;
   max-width: 500px;
   margin: 20px;
+  margin-right: 125px;
+}
+
+@media only screen and (max-width: 930px) {
+  .services-image {
+    max-width: 90%;
+    max-height: 90%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .services-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    /* max-width: 900px; */
+  }
+
+  .services-card-content {
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px;
+  }
 }
