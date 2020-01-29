@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import '../Styles/contact.css';
-import Footer from './Footer';
 
 const Contact = props => {
   return (

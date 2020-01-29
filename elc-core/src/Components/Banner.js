@@ -23,10 +23,10 @@ const Banner = props => {
           Our mission is to ensure exceptional teens and young adults have the
           opportunity to gain the skills and confidence they need to live as
           independently as possible.
-          <p>
-            We celebrate each individual by finding strengths in their
-            differences.
-          </p>
+        </p>
+        <p>
+          We celebrate each individual by finding strengths in their
+          differences.
         </p>
         <hr className='my-2' />
         <p className='lead' style={{ marginBottom: '0px' }}>

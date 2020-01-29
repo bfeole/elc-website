@@ -10,7 +10,6 @@ import Services from './Components/Services';
 // Styling
 import './App.css';
 import Contact from './Components/Contact';
-import Footer from './Components/Footer';
 
 const history = createBrowserHistory();
 
