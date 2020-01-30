@@ -23,8 +23,8 @@ const Services = pros => {
         <img src={smile} alt='smile' className='services-page-image'></img>
         <h4 className='display-4'>Services</h4>
         <p>
-          Everyone has their own unique set of goals. Please inquire about the
-          services listed below if you have any questions.{' '}
+          Our services include coaching in the following areas. We are also able
+          to customize services to meet the unique needs of each individual.{' '}
         </p>
       </div>
       <div className='container'>
