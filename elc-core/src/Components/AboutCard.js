@@ -21,11 +21,11 @@ const AboutCard = () => {
             <h2>Welcome to Exceptional Life Coaching!</h2>I have always believed
             we are here to support, encourage, motivate and care for one another
             so that we can each live our own exceptional lives. As a certified
-            Pediatric Developmental Therapist and a newly certified Special
-            Needs Life Coach, this is my life work. As a sister of a young adult
-            with special needs I have been a passionate advocate for this
-            community with over ten years of professional experience. I am very
-            excited to begin my journey with Exceptional Life Coaching.
+            Pediatric Developmental Therapist and a certified Special Needs Life
+            Coach, this is my life work. Having a sister with special needs has
+            made me a passionate advocate for these individuals. I have over 10
+            years of professional experience and I'm very excited to share this
+            experience as I begin my journey with Exceptional Life Coaching.
           </div>
           <Button color='primary' href='/contact' style={{ margin: '1rem' }}>
             Contact Us

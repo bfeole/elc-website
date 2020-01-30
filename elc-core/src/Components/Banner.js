@@ -24,10 +24,7 @@ const Banner = props => {
           opportunity to gain the skills and confidence they need to live as
           independently as possible.
         </p>
-        <p>
-          We celebrate each individual by finding strengths in their
-          differences.
-        </p>
+        <p>We celebrate each individual by finding strengths in differences.</p>
         <hr className='my-2' />
         <p className='lead' style={{ marginBottom: '0px' }}>
           <Button color='primary' style={{ margin: '1rem' }} href='/contact'>

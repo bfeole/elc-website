@@ -10,7 +10,7 @@ const Contact = props => {
         <div className='contact-header'>
           <h2>We'd love to hear from you!</h2>
           <p>
-            Whether you have a question about services, or want to set up an
+            Whether you have a question about services or want to set up an
             initial consultation, please send us a note and we will get back to
             you as soon as possible.{' '}
           </p>
