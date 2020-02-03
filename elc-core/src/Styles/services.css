@@ -87,6 +87,7 @@
   .services-card-content {
     flex-direction: column;
     max-width: 500px;
-    margin: 20px;
+    margin-right: 0;
+    margin: 0;
   }
 }
