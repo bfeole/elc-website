@@ -52,7 +52,7 @@ const Social = props => {
           Social skills and social awareness are two of the most important and
           arguably the most difficult skills for teens and young adults.
           Establishing positive social behaviors and a sense of awareness builds
-          self worth. We provide training to help individuals build healty
+          self worth. We provide training to help individuals build healthy
           relationships.
         </CardText>
       </Collapse>

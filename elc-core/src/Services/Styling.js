@@ -49,7 +49,7 @@ const Styling = props => {
       {button}
       <Collapse isOpen={isOpen}>
         <CardText style={{ paddingTop: '10px' }}>
-          Appearance and presentation is unique to each individual. We provide
+          Appearance and presentation are unique to each individual. We provide
           basic personal styling for daily life, employment and specific events.{' '}
         </CardText>
       </Collapse>

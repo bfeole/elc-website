@@ -48,7 +48,7 @@ const Romantic = props => {
       {button}
       <Collapse isOpen={isOpen}>
         <CardText style={{ paddingTop: '10px' }}>
-          Establishing and navigating meaningful close relationships has a
+          Establishing and navigating meaningful close relationships have a
           direct correlation to happiness and self worth. We work one on one or
           with couples to develop healthy communication and mutual respect.{' '}
         </CardText>

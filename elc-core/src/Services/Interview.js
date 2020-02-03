@@ -49,7 +49,7 @@ const Interview = props => {
       {button}
       <Collapse isOpen={isOpen}>
         <CardText style={{ paddingTop: '10px' }}>
-          Professional presentation involves many aspects including body
+          Professional presentation involves many aspects, including body
           language and eye contact. We provide the training needed to increase
           success in a working environment.
         </CardText>
