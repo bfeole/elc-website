@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import Services from './Components/Services';
+import About from './Components/About';
 
 // Styling
 import './App.css';
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/services' component={Services} />
         <Route exact path='/contact' component={Contact} />
+        <Route exact path='/about' component={About} />
       </Router>
     </div>
   );

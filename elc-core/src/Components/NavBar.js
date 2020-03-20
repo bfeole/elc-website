@@ -13,32 +13,35 @@ import {
 // import '../Styles/navbar.css';
 // import icon from '../Assets/apple-touch-icon.png';
 
-const NavBar = (props) => {
+const NavBar = props => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar color="light" light expand="md" fixed="top">
-        <NavbarBrand href="/">ELC</NavbarBrand>
+      <Navbar color='light' light expand='md' fixed='top'>
+        <NavbarBrand href='/'>ELC</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-          <NavItem>
-              <NavLink href="/">Home</NavLink>
+          <Nav className='mr-auto' navbar>
+            <NavItem>
+              <NavLink href='/'>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/services">Services</NavLink>
+              <NavLink href='/about'>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href='/services'>Services</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href='/contact'>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
     </div>
   );
-}
+};
 
 export default NavBar;
