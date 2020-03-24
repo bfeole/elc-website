@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from 'reactstrap';
 // import AboutCarousel from './AboutCarousel.js';
 // import scimg from '../Assets/sc-web.png';
-import aboutimg from '../Assets/sc-home-2.png';
+import aboutimg from '../Assets/sara-1.jpg';
 import '../Styles/about.css';
 
 const AboutCard = () => {

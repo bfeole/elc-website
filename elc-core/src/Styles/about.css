@@ -1,3 +1,5 @@
+/* About Card - Home Page */
+
 .about-wrapper {
   display: flex;
   align-items: center;
@@ -42,4 +44,42 @@
   justify-content: center;
   justify-items: center;
   max-width: 500px;
+}
+
+/* About Page */
+
+.about-page-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+  border: 1px solid black;
+}
+
+.about-page-image {
+  border-radius: 50px;
+}
+
+.about-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 900px;
+  background-color: #f8f5d0;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  /* border: 1px solid orange; */
+}
+
+.about-page-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  margin-bottom: 5px;
+  text-align: left;
+  /* border: 1px solid red; */
 }
