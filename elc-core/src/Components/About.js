@@ -21,7 +21,7 @@ const About = () => {
             <h2>Sara Feole</h2>
             <hr className='about-image-break' />
             {/* <h3>Certifications</h3> */}
-            <h5>
+            <p>
               <li>
                 <ul>
                   Meredith College, Bachelor of Science in Child Development
@@ -30,7 +30,7 @@ const About = () => {
                 <ul>Certified Pediatric Developmental Therapist</ul>
                 <ul>Certified Special Needs Life Quality Coach</ul>
               </li>
-            </h5>
+            </p>
           </div>
         </div>
         <div className='about-page-right'>
