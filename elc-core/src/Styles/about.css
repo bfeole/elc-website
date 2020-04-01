@@ -52,29 +52,48 @@
 
 /* About Page */
 
+.about-page-container {
+  margin-top: 100px;
+}
+
+.about-page-container h2 {
+  margin: 10px;
+  margin-bottom: 10px;
+}
 .about-page-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  margin-top: 100px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+.about-page-left {
+  max-width: 50%;
 }
 
-.about-page-image-wrapper {
+.about-page-right {
+  max-width: 750px;
+}
+@media only screen and (max-width: 930px) {
+  .about-page-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* .about-page-image-wrapper {
   display: inline-block;
   position: relative;
   max-width: 350px;
   height: 350px;
   overflow: hidden;
   border-radius: 50%;
-}
+} */
+
 .about-page-image {
-  /* border-radius: 50%; */
-  width: auto;
-  height: 100%;
-  margin-left: -60px;
+  border-radius: 50%;
+  max-width: 350px;
+  max-height: 100%;
 }
 
 .about-image-break {
@@ -83,7 +102,7 @@
 
 li {
   list-style-type: none;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .about-page-content {
@@ -94,7 +113,7 @@ li {
   max-width: 900px;
   background-color: #f8f5d0;
   border-radius: 30px;
-  margin-bottom: 50px;
+  margin: 70px 50px 50px 70px;
   /* border: 1px solid orange; */
 }
 

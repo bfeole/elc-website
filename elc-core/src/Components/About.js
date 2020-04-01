@@ -2,14 +2,14 @@ import React from 'react';
 
 import AboutButton from '../Components/AboutButton.js';
 
-import aboutimg from '../Assets/sara-hs-fullres-1.png';
+import aboutimg from '../Assets/sara-square-hs-1.png';
 import '../Styles/about.css';
 
 const About = () => {
   return (
     <div className='about-page-container'>
+      <h2>About Me</h2>
       <div className='about-page-wrapper'>
-        {/* <h2>About Me</h2> */}
         <div className='about-page-left'>
           <div className='about-page-image-wrapper'>
             <img
