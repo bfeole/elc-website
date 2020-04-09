@@ -1,14 +1,15 @@
 import React from 'react';
 
-import AboutButton from '../Components/AboutButton.js';
-
 import aboutimg from '../Assets/sara-square-hs-1.png';
 import '../Styles/about.css';
+import Footer from './Footer.js';
 
 const About = () => {
   return (
     <div className='about-page-container'>
-      <h2>About Me</h2>
+      <div className='about-page-banner'>
+        <h2>Meet Sara Feole</h2>
+      </div>
       <div className='about-page-wrapper'>
         <div className='about-page-left'>
           <div className='about-page-image-wrapper'>
@@ -18,10 +19,10 @@ const About = () => {
               className='about-page-image'></img>
           </div>
           <div className='about-page-cert'>
-            <h2>Sara Feole</h2>
+            {/* <h2>Sara Feole</h2> */}
             <hr className='about-image-break' />
             {/* <h3>Certifications</h3> */}
-            <p>
+            <div>
               <li>
                 <ul>
                   Meredith College, Bachelor of Science in Child Development
@@ -30,7 +31,7 @@ const About = () => {
                 <ul>Certified Pediatric Developmental Therapist</ul>
                 <ul>Certified Special Needs Life Quality Coach</ul>
               </li>
-            </p>
+            </div>
           </div>
         </div>
         <div className='about-page-right'>
@@ -65,13 +66,14 @@ const About = () => {
                 A resident of Wake County, Sara is an avid believer in giving
                 back to her local community and has served as a coach for the
                 Special Olympics since 2007. In addition, she regularly
-                volunteers at Duke Children’s Hospital, Camp Joy, and KidPowerNC
+                volunteers at Duke Children’s Hospital, Camp Joy, and
+                KidPowerNC.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <AboutButton />
+      <Footer />
     </div>
   );
 };

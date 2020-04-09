@@ -20,29 +20,15 @@ const Contact = props => {
           method='POST'>
           <FormGroup>
             <Label for='yourName'>Your Name</Label>
-            <Input
-              type='text'
-              name='name'
-              id='yourName'
-              placeholder='Enter Your Name Here'></Input>
+            <Input type='text' name='name' id='yourName'></Input>
           </FormGroup>
           <FormGroup>
             <Label for='yourEmail'>Your Email Address</Label>
-            <Input
-              type='email'
-              name='email'
-              id='yourEmail'
-              placeholder='Enter Email Address Here'
-            />
+            <Input type='email' name='email' id='yourEmail' />
           </FormGroup>
           <FormGroup>
             <Label for='yourText'>Your Message</Label>
-            <Input
-              type='textarea'
-              name='text'
-              id='yourText'
-              placeholder='Enter Your Message Here'
-            />
+            <Input type='textarea' name='text' id='yourText' />
           </FormGroup>
           <Button>Submit</Button>
         </Form>

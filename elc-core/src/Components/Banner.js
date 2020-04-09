@@ -30,7 +30,7 @@ const Banner = props => {
           <Button color='primary' style={{ margin: '1rem' }} href='/contact'>
             Contact Us
           </Button>
-          <Button color='secondary' style={{ margin: '1rem' }} href='/services'>
+          <Button color='secondary' style={{ margin: '1rem' }} href='/about'>
             Learn More
           </Button>
         </p>

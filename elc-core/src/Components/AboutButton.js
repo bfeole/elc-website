@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 const AboutButton = () => {
   return (
     <div>
-      <Button color='primary' style={{ margin: '1rem' }}>
+      <Button color='primary' href='/contact' style={{ margin: '1rem' }}>
         Contact Us
       </Button>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutCard from './AboutCard';
-import Banner from './Banner';
 import ServicesCard from './ServicesCard';
 import ContactCard from './ContactCard';
 import Footer from './Footer';
@@ -13,7 +12,7 @@ import TestimonialCard from './TestimonialCard';
 const Home = () => {
   return (
     <div className='home-wrapper'>
-      <Banner />
+      {/* <Banner /> */}
       <AboutCard />
       <ServicesCard />
       <TestimonialCard />

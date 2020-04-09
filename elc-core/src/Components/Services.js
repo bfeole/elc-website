@@ -21,7 +21,7 @@ const Services = pros => {
     <div className='services-wrapper'>
       <div className='services-intro'>
         <img src={smile} alt='smile' className='services-page-image'></img>
-        <h4 className='display-4'>Services</h4>
+        <h2 className='display-5'>Services</h2>
         <p>
           Our services include coaching in the following areas. We are also able
           to customize services to meet the unique needs of each individual.{' '}
