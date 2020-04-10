@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ServicesSkill = (props) => {
   return (
@@ -16,7 +17,15 @@ const ServicesSkill = (props) => {
         padding: 10,
         borderRadius: 10,
       }}>
-      <div className='service-skill-image'>{/* font awesome png */}</div>
+      <div
+        className='service-skill-image'
+        style={{
+          color: 'gray',
+          textShadow: '1px, 1px, 1px, #ccc',
+          fontSize: '4em',
+        }}>
+        <FontAwesomeIcon icon={props.icon} />
+      </div>
       <div
         className='service-skill-title-container'
         style={{
