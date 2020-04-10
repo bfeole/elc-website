@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: space-evenly;
   min-height: 80vh;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   margin-bottom: 25px;
   padding: 25px 0 25px 0;
 }

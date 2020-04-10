@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutCard from './AboutCard';
 import ServicesCard from './ServicesCard';
 import ContactCard from './ContactCard';
 import Footer from './Footer';
+import Banner from './Banner';
 
 // Styling
 import '../Styles/home.css';
@@ -12,8 +12,8 @@ import TestimonialCard from './TestimonialCard';
 const Home = () => {
   return (
     <div className='home-wrapper'>
-      {/* <Banner /> */}
-      <AboutCard />
+      <Banner />
+      {/* <AboutCard /> */}
       <ServicesCard />
       <TestimonialCard />
       <ContactCard />

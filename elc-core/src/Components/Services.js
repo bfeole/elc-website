@@ -15,10 +15,12 @@ import Footer from './Footer.js';
 import '../Styles/services.css';
 
 import smile from '../Assets/c-services.png';
+import Header from './Header.js';
 
-const Services = pros => {
+const Services = (props) => {
   return (
     <div className='services-wrapper'>
+      <Header headerText='Services' />
       <div className='services-intro'>
         <img src={smile} alt='smile' className='services-page-image'></img>
         <h2 className='display-5'>Services</h2>

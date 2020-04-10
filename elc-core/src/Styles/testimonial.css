@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   max-width: 90%;
+  min-height: 450px;
 }
 
 .testimonial-color-wrapper {
@@ -16,8 +17,8 @@
 }
 
 .testimonial-image {
-  max-width: 90%;
-  max-height: 90%;
+  min-width: 90%;
+  min-height: 420px;
   padding: 10px;
   border-radius: 15px;
   /* margin-right: 10px; */

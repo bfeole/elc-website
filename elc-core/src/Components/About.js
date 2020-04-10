@@ -3,13 +3,12 @@ import React from 'react';
 import aboutimg from '../Assets/sara-square-hs-1.png';
 import '../Styles/about.css';
 import Footer from './Footer.js';
+import Header from './Header';
 
 const About = () => {
   return (
     <div className='about-page-container'>
-      <div className='about-page-banner'>
-        <h2>Meet Sara Feole</h2>
-      </div>
+      <Header headerText='Meet Sara Feole' />
       <div className='about-page-wrapper'>
         <div className='about-page-left'>
           <div className='about-page-image-wrapper'>
@@ -19,17 +18,15 @@ const About = () => {
               className='about-page-image'></img>
           </div>
           <div className='about-page-cert'>
-            {/* <h2>Sara Feole</h2> */}
             <hr className='about-image-break' />
-            {/* <h3>Certifications</h3> */}
             <div>
               <li>
                 <ul>
                   Meredith College, Bachelor of Science in Child Development
                 </ul>
-                <ul>Infant Toddler Certification </ul>
-                <ul>Certified Pediatric Developmental Therapist</ul>
                 <ul>Certified Special Needs Life Quality Coach</ul>
+                <ul>Certified Pediatric Developmental Therapist</ul>
+                <ul>Infant Toddler Care Certification </ul>
               </li>
             </div>
           </div>
