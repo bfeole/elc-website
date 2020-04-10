@@ -6,6 +6,12 @@
   justify-content: space-around;
 }
 
+/* @media (max-width: 750px) {
+  .services-page-container {
+    flex-direction: column;
+  }
+} */
+
 /* Services Card Styling */
 
 .services-card-wrapper {
@@ -68,6 +74,10 @@
   .services-image {
     padding: 10px;
     margin: 0;
+  }
+
+  .services-intro {
+    max-width: 80%;
   }
 
   .services-card-wrapper {

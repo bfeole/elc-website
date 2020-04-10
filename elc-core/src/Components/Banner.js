@@ -9,9 +9,8 @@ const Banner = () => {
       <div className='banner-wrapper'>
         <div className='banner-content'>
           <div className='banner-copy'>
-            <div
-              className='banner-welcome'
-              style={{ fontWeight: '400', fontSize: 42 }}>
+            <div className='banner-welcome'>
+              {/* // style={{ fontWeight: '400', fontSize: 40 }}> */}
               Welcome to Exceptional Life Coaching!
             </div>
             <p>
@@ -20,8 +19,17 @@ const Banner = () => {
               live as independently as possible.
             </p>
           </div>
-          <Button style={{ color: '#ffffff' }} outline href='/contact'>
+          <Button
+            style={{ color: '#fafafa', marginRight: 10 }}
+            outline
+            href='/contact'>
             Contact Us
+          </Button>
+          <Button
+            style={{ color: '#fafafa', width: 100 }}
+            outline
+            href='/about'>
+            About
           </Button>
         </div>
       </div>
