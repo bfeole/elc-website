@@ -14,7 +14,7 @@ import Footer from './Footer.js';
 
 import '../Styles/services.css';
 
-import smile from '../Assets/c-services.png';
+// import smile from '../Assets/c-services.png';
 import Header from './Header.js';
 
 const Services = (props) => {
@@ -22,8 +22,7 @@ const Services = (props) => {
     <div className='services-wrapper'>
       <Header headerText='Services' />
       <div className='services-intro'>
-        <img src={smile} alt='smile' className='services-page-image'></img>
-        <h2 className='display-5'>Services</h2>
+        {/* <img src={smile} alt='smile' className='services-page-image'></img> */}
         <p>
           Our services include coaching in the following areas. We are also able
           to customize services to meet the unique needs of each individual.{' '}

@@ -29,7 +29,9 @@ const ContactForm = (props) => {
           <Label for='yourText'>Your Message</Label>
           <Input type='textarea' name='text' id='yourText' />
         </FormGroup>
-        <Button>Submit</Button>
+        <Button outline color='primary'>
+          Submit
+        </Button>
       </Form>
     </div>
   );

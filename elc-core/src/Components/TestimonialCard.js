@@ -8,6 +8,7 @@ const TestimonialCard = () => {
     <div className='testimonial-color-wrapper'>
       <div className='testimonial-wrapper'>
         <div className='testimonial-image-container'>
+          <h2 className='testi-title-mobile'>A Happy Client</h2>
           <img
             src={testimg}
             alt='brandon pizza'
@@ -15,8 +16,7 @@ const TestimonialCard = () => {
         </div>
         <div className='testimonial-content'>
           <div className='testimonial-copy'>
-            {/* <h4 className='display-4 quote-left'>"</h4> */}
-            <h2>A Happy Client</h2>
+            <h2 className='testi-title-desktop'>A Happy Client</h2>
             <p>
               "I have a son with an intellectual disability. I hired Sara to
               work on expanding his current independent living, technological
@@ -27,7 +27,6 @@ const TestimonialCard = () => {
               for each visit, gives valuable feedback and seeks out advise to
               achieve ideal outcomes. I would recommend ELC highly to work with
               your loved one!"
-              {/* <h2 className='display-4 quote-right'>"</h2>  */}
             </p>
           </div>
         </div>

@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div className='home-wrapper'>
       <Banner />
-      {/* <AboutCard /> */}
       <ServicesCard />
       <TestimonialCard />
       <ContactCard />
