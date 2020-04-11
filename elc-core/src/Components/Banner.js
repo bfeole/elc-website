@@ -1,40 +1,37 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Button } from 'reactstrap';
 
 import '../Styles/banner.css';
 
-import elclogo from '../Assets/elc-logo-web-crop.png';
-
-const Banner = props => {
+const Banner = () => {
   return (
-    <div className='banner-wrapper'>
-      <Jumbotron
-        style={{
-          backgroundImage: `url(${elclogo})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          width: '100%',
-          marginBottom: '0px',
-        }}>
-        <h1 className='display-4 font-weight-normal'>
-          Exceptional Life Coaching
-        </h1>
-        <p className='lead font-weight-normal'>
-          Our mission is to ensure exceptional teens and young adults have the
-          opportunity to gain the skills and confidence they need to live as
-          independently as possible.
-        </p>
-        <p>We celebrate each individual by finding strengths in differences.</p>
-        <hr className='my-2' />
-        <p className='lead' style={{ marginBottom: '0px' }}>
-          <Button color='primary' style={{ margin: '1rem' }} href='/contact'>
+    <div className='banner-color-wrapper'>
+      <div className='banner-content'>
+        <div className='banner-welcome'>
+          Welcome to Exceptional Life Coaching!
+        </div>
+        <div className='banner-copy'>
+          <p>
+            Our mission is to ensure exceptional teens and young adults have the
+            opportunity to gain the skills and confidence they need to live as
+            independently as possible.
+          </p>
+        </div>
+        <div className='banner-buttons'>
+          <Button
+            style={{ color: '#fafafa', marginRight: 10 }}
+            outline
+            href='/contact'>
             Contact Us
           </Button>
-          <Button color='secondary' style={{ margin: '1rem' }} href='/services'>
-            Learn More
+          <Button
+            style={{ color: '#fafafa', width: 100 }}
+            outline
+            href='/about'>
+            About
           </Button>
-        </p>
-      </Jumbotron>
+        </div>
+      </div>
     </div>
   );
 };

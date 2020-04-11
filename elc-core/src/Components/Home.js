@@ -1,24 +1,22 @@
 import React from 'react';
-import AboutCard from './AboutCard';
-import Banner from './Banner';
 import ServicesCard from './ServicesCard';
 import ContactCard from './ContactCard';
-import Footer from './Footer';
+import Banner from './Banner';
 
 // Styling
 import '../Styles/home.css';
 import '../Styles/banner.css';
 import TestimonialCard from './TestimonialCard';
+import SocialCard from './SocialCard';
 
 const Home = () => {
   return (
     <div className='home-wrapper'>
       <Banner />
-      <AboutCard />
       <ServicesCard />
       <TestimonialCard />
       <ContactCard />
-      <Footer />
+      <SocialCard />
     </div>
   );
 };

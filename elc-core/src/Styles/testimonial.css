@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   max-width: 90%;
+  min-height: 450px;
 }
 
 .testimonial-color-wrapper {
@@ -16,8 +17,8 @@
 }
 
 .testimonial-image {
-  max-width: 90%;
-  max-height: 90%;
+  min-width: 100%;
+  min-height: 420px;
   padding: 10px;
   border-radius: 15px;
   /* margin-right: 10px; */
@@ -32,10 +33,14 @@
   max-width: 500px;
 }
 
-@media only screen and (max-width: 930px) {
+.testi-title-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
   .testimonial-image {
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 100%;
+    /* max-height: 100%; */
     padding: 10px;
     margin: 0;
   }
@@ -49,5 +54,13 @@
 
   .testimonial-content {
     margin-left: 0;
+  }
+
+  .testi-title-desktop {
+    display: none;
+  }
+
+  .testi-title-mobile {
+    display: block;
   }
 }
