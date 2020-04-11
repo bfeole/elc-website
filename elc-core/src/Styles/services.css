@@ -4,12 +4,6 @@
   justify-content: space-around;
 }
 
-/* @media (max-width: 750px) {
-  .services-page-container {
-    flex-direction: column;
-  }
-} */
-
 /* Services Card Styling */
 
 .services-card-wrapper {
@@ -17,11 +11,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
   max-width: 90%;
   min-height: 450px;
-  /* border: solid pink 2px; */
 }
 
 .services-color-wrapper {
@@ -83,7 +74,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column-reverse;
-    /* max-width: 900px; */
   }
 
   .services-card-content {
