@@ -83,7 +83,6 @@ class Services extends React.Component {
       <div className='services-wrapper'>
         <Header headerText='Services' />
         <div className='services-intro'>
-          {/* <img src={smile} alt='smile' className='services-page-image'></img> */}
           <p>
             Our services include coaching in the following areas. We are also
             able to customize services to meet the unique needs of each
@@ -165,7 +164,6 @@ class Services extends React.Component {
             </Col>
           </Row>
         </div>
-        {/* <Footer /> */}
       </div>
     );
   }

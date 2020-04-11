@@ -1,15 +1,12 @@
 .footer-wrapper {
   height: 100px;
-  /* width: 100%; */
   position: relative;
   left: 0;
   bottom: 0;
   right: 0;
   width: 100%;
-  /* padding-top: 25px; */
-  /* margin-top: 15px; */
+
   background-color: #f8f9fa;
-  /* border: 2px solid black; */
 }
 
 .footer-content {

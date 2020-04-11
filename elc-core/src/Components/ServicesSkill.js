@@ -7,7 +7,6 @@ const ServicesSkill = (props) => {
       className='service-skill-wrapper'
       style={{
         display: 'flex',
-        // width: 500,
         minHeight: 300,
         justifyContent: 'center',
         alignItems: 'center',

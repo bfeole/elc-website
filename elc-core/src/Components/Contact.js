@@ -11,7 +11,6 @@ const Contact = (props) => {
       <div className='contact-page-wrapper'>
         <ContactForm />
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

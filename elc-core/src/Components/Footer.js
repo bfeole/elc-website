@@ -10,11 +10,6 @@ const Footer = () => {
           <p>Exceptional Life Coaching 2020</p>
         </div>
       </div>
-      {/* <div className='footer-links'>
-      <href>Services</href>
-      <href>About</href>
-      <href>Contact</href>
-      </div> */}
     </div>
   );
 };
