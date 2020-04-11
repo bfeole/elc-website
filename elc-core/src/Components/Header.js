@@ -9,9 +9,10 @@ const Header = (props) => {
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
-        minHeight: 150,
+        minHeight: 220,
         background: `linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.35)), url(${HeaderImage})`,
         backgroundSize: 'cover',
+        marginTop: 55,
       }}>
       <h2 style={{ color: 'white', fontSize: 48, marginBottom: 0 }}>
         {props.headerText}

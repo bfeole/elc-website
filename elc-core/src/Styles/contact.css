@@ -3,25 +3,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   background-color: rgba(255, 255, 255, 0.959);
-  /* margin-top: 25px;
-  margin-bottom: 25px; */
   padding: 25px 0 25px 0;
 }
 .contact-wrapper {
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
   margin-top: 15px;
   margin: 10px;
 }
 
-.contact-page-color-wrapper {
+.contact-page-wrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  min-height: 80vh;
+  /* justify-content: space-evenly; */
+  min-height: 800px;
   /* margin-top: 25px; */
-  padding: 25px 0 25px 0;
+  padding: 25px 0 0 0;
 }

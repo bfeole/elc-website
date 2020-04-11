@@ -1,12 +1,29 @@
 .footer-wrapper {
-  max-height: 150px;
+  height: 100px;
+  /* width: 100%; */
   position: relative;
   left: 0;
   bottom: 0;
   right: 0;
   width: 100%;
-  padding-top: 25px;
-  margin-top: 15px;
+  /* padding-top: 25px; */
+  /* margin-top: 15px; */
   background-color: #f8f9fa;
   /* border: 2px solid black; */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  margin-bottom: 0;
+  padding: 40px;
+}
+
+.footer-elc {
+  display: flex;
+  align-content: center;
 }

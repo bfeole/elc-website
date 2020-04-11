@@ -1,7 +1,5 @@
 .services-wrapper {
   display: flex;
-  margin-top: 55px;
-  /* margin-bottom: 25px; */
   flex-direction: column;
   justify-content: space-around;
 }

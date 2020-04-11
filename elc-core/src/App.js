@@ -11,6 +11,7 @@ import About from './Components/About';
 // Styling
 import './App.css';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const history = createBrowserHistory();
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/services' component={Services} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/about' component={About} />
+        <Footer />
       </Router>
     </div>
   );

@@ -2,12 +2,11 @@ import React from 'react';
 
 import aboutimg from '../Assets/sara-square-hs-1.png';
 import '../Styles/about.css';
-import Footer from './Footer.js';
 import Header from './Header';
 
 const About = () => {
   return (
-    <div className='about-page-container'>
+    <div>
       <Header headerText='Meet Sara Feole' />
       <div className='about-page-wrapper'>
         <div className='about-page-left'>
@@ -70,7 +69,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

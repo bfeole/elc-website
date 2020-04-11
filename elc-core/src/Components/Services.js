@@ -1,8 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 
-import Footer from './Footer.js';
-
 import '../Styles/services.css';
 
 import Header from './Header.js';
@@ -68,7 +66,7 @@ class Services extends React.Component {
       interview: {
         title: 'Employment Preparation',
         copy:
-          'Professional presentation involves many aspects, including body language and eye contact. We provide the training needed to increase success in a working environment.',
+          'Professional presentation involves body language and eye contact. We provide the training needed to increase success in a working environment.',
         icon: faUserTie,
       },
       romantic: {
@@ -167,7 +165,7 @@ class Services extends React.Component {
             </Col>
           </Row>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

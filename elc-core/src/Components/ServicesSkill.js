@@ -12,7 +12,7 @@ const ServicesSkill = (props) => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        backgroundColor: '#F8F5D0',
+        backgroundColor: '#FFEFC2',
         margin: 10,
         padding: 10,
         borderRadius: 10,
@@ -30,7 +30,7 @@ const ServicesSkill = (props) => {
         className='service-skill-title-container'
         style={{
           width: '110%',
-          backgroundColor: '#b3cddf',
+          backgroundColor: '#bacfdd',
           borderRadius: 15,
           padding: 10,
           margin: 10,
@@ -42,8 +42,9 @@ const ServicesSkill = (props) => {
         style={{
           textAlign: 'left',
           maxWidth: '90%',
-          height: 110,
-          fontSize: '.95em',
+          height: 140,
+          fontSize: '1em',
+          paddingTop: 10,
         }}>
         <p>{props.skillCopy}</p>
       </div>

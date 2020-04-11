@@ -17,50 +17,75 @@
   background-image: url('../Assets/Sara-about-1920.png');
 }
 
-@media only screen and (max-width: 470px) {
-  .banner-color-wrapper {
-    background-position: -115px 10px;
-  }
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 1000px;
+  color: rgb(221, 221, 221);
+  text-align: center;
+  margin-left: 170px;
+}
+
+.banner-welcome {
+  font-size: 52px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.banner-copy {
+  max-width: 80%;
+  justify-self: center;
+}
+
+.banner-buttons {
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
   .banner-color-wrapper {
     background-position: -115px 10px;
   }
-}
 
-.banner-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  max-width: 1100%;
-}
+  .banner-content {
+    margin-left: 190px;
+    padding-right: 5px;
+  }
 
-.banner-content {
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  max-width: 700px;
-  /* font-family: 'Prata', serif; */
-  color: rgb(221, 221, 221);
-  text-align: left;
-  margin-left: 170px;
-}
-
-.banner-welcome {
-  font-size: 40px;
-  font-weight: 500;
+  .banner-welcome {
+    font-size: 42px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
+  .banner-color-wrapper {
+    background-position: 90px 60px;
+    /* background-position: -115px 10px; */
+  }
+
+  .banner-content {
+    flex-direction: column;
+    flex-flow: wrap;
+    margin-left: 20px;
+    padding-bottom: 300px;
+    text-align: left;
+  }
+
+  .banner-copy {
+    /* margin-left: 150px; */
+    text-align: left;
+    max-width: 100%;
+  }
+
   .banner-welcome {
     font-size: 35px;
     font-weight: 500;
-    /* text-align: center; */
+    text-align: left;
   }
-  .banner-content {
-    margin-left: 190px;
-    /* text-align: center; */
+
+  .banner-buttons {
+    text-align: left;
   }
 }

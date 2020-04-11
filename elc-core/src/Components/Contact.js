@@ -6,9 +6,12 @@ import '../Styles/contact.css';
 
 const Contact = (props) => {
   return (
-    <div className='contact-page-color-wrapper'>
+    <div>
       <Header headerText='Contact' />
-      <ContactForm />
+      <div className='contact-page-wrapper'>
+        <ContactForm />
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 };

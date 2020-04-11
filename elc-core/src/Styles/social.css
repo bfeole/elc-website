@@ -1,0 +1,15 @@
+.social-card-icons a {
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .social-card-icons a {
+    padding: 15px;
+  }
+}
+
+.social-card-icons a:hover {
+  color: #477bff;
+}
