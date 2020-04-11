@@ -1,6 +1,6 @@
 import React from 'react';
 
-import aboutimg from '../Assets/sara-square-hs-1.png';
+import aboutimg from '../Assets/sara-1.png';
 import '../Styles/about.css';
 import Header from './Header';
 
